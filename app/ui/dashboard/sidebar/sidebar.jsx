@@ -11,7 +11,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const Sidebar = () => {
-
   const pathname = usePathname();
 
   const data = [
@@ -23,13 +22,13 @@ const Sidebar = () => {
     },
     {
       id: "2",
-      icon:<MdOutlineTimeline />,
+      icon: <MdOutlineTimeline />,
       title: "Timeline",
       href: "/dashboard/timeline",
     },
     {
       id: "3",
-      icon: <LiaStopCircle className="rotate-45"/>,
+      icon: <LiaStopCircle className="rotate-45" />,
       title: "Appreciate Peers",
       href: "/dashboard/appreciate-peers",
     },
@@ -63,8 +62,8 @@ const Sidebar = () => {
     <div className="container">
       {/* Slide bar tabs */}
 
-      <div className="flex h-24 py-4 border-b border-b-icon-bg items-center gap-2">
-        <div className="border p-2 border-icon-bg rounded-full">
+      <div className="flex h-24 py-4 border-b border-b-icon-bg shadow-sm items-center gap-2">
+        <div className="border p-2 border-icon-bg rounded-full shadow-sm">
           <Image src={Logo} alt="logo" className="h-10 w-10 p-1" />
         </div>
         <div className="w-auto">
@@ -73,33 +72,25 @@ const Sidebar = () => {
         </div>
       </div>
 
-      {/* Slide bar tabs */}
+      {/*  Mapping Slide bar tabs data */}
 
       <div className="flex flex-col mt-12 px-2 gap-2">
-
-        {/* Mapping tabs data*/}
-{data.map((item) =>(
-<div key={item.id}>
-
-        <Link href={item.href}>
-          <div
-            className={`flex items-center text-sm text-gray-500 py-2 px-3 gap-2 hover:bg-gray-200 rounded-lg w-full
+        {data.map((item) => (
+          <div key={item.id}>
+            <Link href={item.href}>
+              <div
+                className={`flex items-center text-sm text-gray-500 py-2 px-3 gap-2 hover:bg-gray-200 rounded-lg w-full
             ${
               pathname === `${item.href}` &&
               "text-primary bg-primary-bg hover:bg-primary-bg"
             }`}
-          >
-            {item.icon}
-            <p>{item.title}</p>
+              >
+                {item.icon}
+                <p>{item.title}</p>
+              </div>
+            </Link>
           </div>
-        </Link>
-</div>
-
-)
-
-
-)}
-
+        ))}
       </div>
     </div>
   );

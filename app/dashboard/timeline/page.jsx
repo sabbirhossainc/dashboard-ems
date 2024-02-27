@@ -1,8 +1,9 @@
-
 const Timeline = () => {
   return (
-    <div>Timeline</div>
-  )
-}
+    <div className="flex justify-center items-center w-full h-full">
+      <p className="text-7xl font-light">Timeline Page</p>
+    </div>
+  );
+};
 
-export default Timeline
+export default Timeline;

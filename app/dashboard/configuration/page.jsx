@@ -1,8 +1,9 @@
-
 const Configuration = () => {
   return (
-    <div>Configuration</div>
-  )
-}
+    <div className="flex justify-center items-center w-full h-full">
+      <p className="text-7xl font-light">Configuration Page</p>
+    </div>
+  );
+};
 
-export default Configuration
+export default Configuration;

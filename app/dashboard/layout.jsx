@@ -4,10 +4,10 @@ import Sidebar from "@/app/ui/dashboard/sidebar/sidebar";
 const Layout = ({ children }) => {
   return (
     <div className="flex flex-row h-screen">
-      <div className="basis-1/6 p-4 border-r border-r-icon-bg">
+      <div className="basis-1/6 p-4 border-r border-r-icon-bg shadow-sm">
         <Sidebar />
       </div>
-      <div className="basis-5/6 p-6">
+      <div className="basis-5/6 p-4 px-8">
         <Navbar />
         {children}
       </div>

@@ -9,7 +9,7 @@ export default function Error({ error, reset }) {
   }, [error]);
 
   return (
-    <div>
+    <div className="container">
       <h2 className="justify-center flex items-center text-3xl text-red-300">
         Something went wrong!
       </h2>
