@@ -1,0 +1,34 @@
+[
+  { "id": "1", "title": "Home", "description": "/dashboard" },
+
+  {
+    "id": "2",
+    "title": "Timeline",
+    "description": "/dashboard/timeline"
+  },
+  {
+    "id": "3",
+    "title": "Appreciate Peers",
+    "description": "/dashboard/appreciate-peers"
+  },
+  {
+    "id": "4",
+    "title": "Redeem Rewards",
+    "description": "/dashboard/redeem-rewards"
+  },
+  {
+    "id": "5",
+    "title": "Employee Management",
+    "description": "/dashboard/employee-management"
+  },
+  {
+    "id": "6",
+    "title": "Configuration",
+    "description": "/dashboard/configuration"
+  },
+  {
+    "id": "7",
+    "title": "Training & Resources",
+    "description": "/dashboard/training&resources"
+  }
+]
