@@ -6,6 +6,8 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const EmployeeNav = () => {
   const [open, setOpen] = useState("All");
+  const [search, setSearch] = useState("");
+  // console.log(search);
 
   const toggleTab = (e) => {
     setOpen(e);
@@ -18,12 +20,12 @@ const EmployeeNav = () => {
   ];
 
   const activeTab = (type = null) => {
-    let classes = "text-gray-400 rounded-md px-4 py-0.5 text-sm font-medium";
+    let classes = " rounded-md px-4 py-0.5 text-sm font-medium";
 
     if (type === open) {
       classes += " bg-gray-100 text-gray-900";
     } else {
-      classes += "";
+      classes += " text-gray-400";
     }
     return classes;
   };
@@ -62,6 +64,7 @@ const EmployeeNav = () => {
             id="search"
             className="w-96 rounded-md border-0 py-2 pl-8 pr-2 text-gray-900 ring-1 ring-inset ring-icon-bg placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary outline-0"
             placeholder="Name,Department,Status..."
+            onChange={(e) => {setSearch(e.target.value)}}
           />
         </div>
 

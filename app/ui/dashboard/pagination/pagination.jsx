@@ -11,13 +11,12 @@ const Pagination = () => {
   };
 
   const activeTab = (type = null) => {
-    let classes =
-      "relative z-10 inline-flex items-center hover:text-primary hover:bg-primary-bg px-2 py-1 text-sm font-semibold text-gray-700 rounded-md";
+    let classes = "relative z-10 inline-flex items-center px-2 py-1 text-sm font-semibold text-gray-700 rounded-md";
 
     if (type === open) {
-      classes += " bg-primary text-white hover:bg-primary hover:text-white";
+      classes += " bg-primary text-white";
     } else {
-      classes += "";
+      classes += " hover:bg-primary-bg hover:text-primary";
     }
     return classes;
   };
