@@ -68,8 +68,8 @@ const Sidebar = () => {
           </div>
         </Link>
         <div className="w-auto">
-          <p className="text-xl font-medium">Company</p>
-          <p className="text-sm text-gray-400">Company subtitle</p>
+          <p className="text-xl font-medium">Softypy</p>
+          <p className="text-sm text-gray-400">Digital Creator</p>
         </div>
       </div>
 

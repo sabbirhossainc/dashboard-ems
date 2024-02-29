@@ -49,11 +49,11 @@ const EmployeeTable = () => {
                   <span className="">
                     <div className="p-1 ring-1 ring-inset ring-icon-bg rounded-full shadow-sm">
                       <Image
-                        src={`/public/images/${item.avatar}.png`}
+                        src={`/images/${item.avatar}.png`}
                         alt={item.avatar}
                         className="h-8 w-8 bg-icon-bg rounded-full"
-                        width={16}
-                        height={16}
+                        width={200}
+                        height={200}
                       />
                     </div>
                   </span>
