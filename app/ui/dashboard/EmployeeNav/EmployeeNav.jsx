@@ -30,7 +30,7 @@ const EmployeeNav = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-between border-b border-b-icon-bg shadow-sm py-6 gap-4">
+      <div className="flex items-center justify-between py-6 gap-4">
         {/* Employee navbar */}
         <div className="flex justify-center items-center bg-gray-200 shadow-sm rounded-lg">
           <div className="mx-10 my-1.5 flex items-baseline space-x-4">
@@ -73,7 +73,7 @@ const EmployeeNav = () => {
           <select
             id="entries"
             name="entries"
-            className="block w-full rounded-md border-0 appearance-none border-transparent bg-transparent py-2 pr-6 px-3 text-sm text-gray-500 font-semibold focus:ring-2  focus:ring-indigo-600 ring-1 ring-inset ring-icon-bg outline-0 "
+            className="block w-full rounded-md border-0 appearance-none border-transparent bg-transparent py-2 pr-6 px-3 text-sm text-gray-500 font-semibold focus:ring-2  focus:ring-primary ring-1 ring-inset ring-icon-bg outline-0 "
           >
             <option className="bg-icon-bg text-gray-900 font-medium">
               10 Entries

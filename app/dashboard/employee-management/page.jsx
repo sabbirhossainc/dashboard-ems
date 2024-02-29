@@ -1,9 +1,12 @@
 import EmployeeNav from "@/app/ui/dashboard/EmployeeNav/EmployeeNav";
+import EmployeeTable from "@/app/ui/dashboard/EmployeeTable/EmployeeTable";
+import Pagination from "@/app/ui/dashboard/pagination/pagination";
 import { GoPlus } from "react-icons/go";
 import { CiExport } from "react-icons/ci";
 
 const Employee = () => {
   return (
+
     <div>
       <div className="flex items-center justify-between py-4 gap-8">
         {/* Category title and subtitle */}
@@ -32,6 +35,8 @@ const Employee = () => {
         </button>
       </div>
       <EmployeeNav />
+      <EmployeeTable />
+      <Pagination/>
     </div>
   );
 };

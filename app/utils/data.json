@@ -1,34 +1,92 @@
-[
-  { "id": "1", "title": "Home", "description": "/dashboard" },
-
-  {
-    "id": "2",
-    "title": "Timeline",
-    "description": "/dashboard/timeline"
-  },
-  {
-    "id": "3",
-    "title": "Appreciate Peers",
-    "description": "/dashboard/appreciate-peers"
-  },
-  {
-    "id": "4",
-    "title": "Redeem Rewards",
-    "description": "/dashboard/redeem-rewards"
-  },
-  {
-    "id": "5",
-    "title": "Employee Management",
-    "description": "/dashboard/employee-management"
-  },
-  {
-    "id": "6",
-    "title": "Configuration",
-    "description": "/dashboard/configuration"
-  },
-  {
-    "id": "7",
-    "title": "Training & Resources",
-    "description": "/dashboard/training&resources"
-  }
-]
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Sabbir Hossain",
+      "email": "shr472978@softypy.com",
+      "title": "Team Manager",
+      "dept": "Management",
+      "astatus": "Active",
+      "pstatus": true,
+      "invited": false,
+      "avatar": "man"
+    },
+    {
+      "id": "2",
+      "name": "Tejsshree Ghule",
+      "email": "tejsshree8@softypy.com",
+      "title": "Reception",
+      "dept": "DeskHelp",
+      "astatus": "Inactive",
+      "pstatus": false,
+      "invited": true,
+      "avatar": "woman"
+    },
+    {
+      "id": "3",
+      "name": "Rana Haque",
+      "email": "rana@softypy.com",
+      "title": "Chartered Accountant",
+      "dept": "Accounts",
+      "astatus": "Active",
+      "pstatus": true,
+      "invited": false,
+      "avatar": "man1"
+    },
+    {
+      "id": "4",
+      "name": "SM Naheem",
+      "email": "naheem@softypy.com",
+      "title": "Staff Cordinator",
+      "dept": "Management",
+      "astatus": "Inactive",
+      "pstatus": false,
+      "invited": true,
+      "avatar": "man2"
+    },
+    {
+      "id": "5",
+      "name": "Sami Bihsal",
+      "email": "bishal@softypy.com",
+      "title": "Chartered Accountant",
+      "dept": "Accounts",
+      "astatus": "Active",
+      "pstatus": true,
+      "invited": false,
+      "avatar": "man3"
+    },
+    {
+      "id": "6",
+      "name": "Kazi Fatiha",
+      "email": "fatiha@softypy.com",
+      "title": "Reception",
+      "dept": "DeskHelp",
+      "astatus": "Iactive",
+      "pstatus": false,
+      "invited": true,
+      "avatar": "woman1"
+    },
+    {
+      "id": "7",
+      "name": "Nazmul Islam",
+      "email": "nazmul@softypy.com",
+      "title": "Staff Cordinator",
+      "dept": "Management",
+      "astatus": "Active",
+      "pstatus": true,
+      "invited": false,
+      "avatar": "man4"
+    },
+    {
+      "id": "8",
+      "name": "Lamia Akter",
+      "email": "lamia@softypy.com",
+      "title": "Reception",
+      "dept": "DeskHelp",
+      "astatus": "Iactive",
+      "pstatus": false,
+      "invited": true,
+      "avatar": "woman2"
+    }
+  ]
+}
