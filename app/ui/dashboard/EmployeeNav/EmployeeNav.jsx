@@ -12,9 +12,9 @@ const EmployeeNav = () => {
   };
 
   const navigation = [
-    { name: "All", href: "#" },
-    { name: "Active", href: "#" },
-    { name: "Inactive", href: "#" },
+    { name: "All", href: "#all" },
+    { name: "Active", href: "#active" },
+    { name: "Inactive", href: "#inactive" },
   ];
 
   const activeTab = (type = null) => {
@@ -67,7 +67,7 @@ const EmployeeNav = () => {
 
         {/* Entries button */}
         <div className="relative rounded-md text-sm shadow-sm">
-          <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2">
+          <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 ">
             <IoIosArrowDown className="h-4 w-4 text-gray-500" />
           </span>
           <select

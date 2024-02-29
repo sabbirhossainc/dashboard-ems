@@ -1,9 +1,8 @@
 "use client";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { IoIosArrowDown } from "react-icons/io";
 import { RiNotification2Line } from "react-icons/ri";
-import { usePathname } from "next/navigation";
-import Boy from "@/public/images/boy.png"
 
 const Navbar = () => {
   const pathName = usePathname();
@@ -27,7 +26,7 @@ const Navbar = () => {
 
       {/* admin panel notification */}
 
-      <div className="p-2 rounded-full hover:bg-icon-bg cursor-pointer">
+      <div className="p-2 rounded-full ring-1 ring-inset ring-icon-bg hover:bg-icon-bg hover:text-primary cursor-pointer">
         <RiNotification2Line />
       </div>
 
@@ -47,13 +46,13 @@ const Navbar = () => {
 
         <span className="ml-3">
           <div className="">
-            <p>Sabbir Hossain</p>
+            <p>Md Sabbir Hossain</p>
             <p className="text-xs text-gray-500">shr472978@gmail.com</p>
           </div>
         </span>
 
         <span className="ml-3">
-          <div className="p-1 hover:bg-icon-bg rounded-full shadow-sm cursor-pointer">
+          <div className="shadow-sm hover:text-primary cursor-pointer">
             <IoIosArrowDown />
           </div>
         </span>
