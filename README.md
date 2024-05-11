@@ -1,3 +1,9 @@
+# Preview the site
+
+This site provides a minimal setup to manage employee on an admin dashboard and can be control employee afterwards.
+
+## [EMS dashboard](https://dashboard-ems-two.vercel.app/dashboard/employee-management) 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
